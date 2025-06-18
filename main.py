@@ -1,6 +1,5 @@
 import base64
-import os
-import streamlit as st
+
 import reveal_slides as rs
 
 
