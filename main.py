@@ -1,7 +1,6 @@
 import base64
-
+from streamlit.components.v1 import html
 import reveal_slides as rs
-
 
 # Чтение markdown слайдов
 with open("presentation.md", "r", encoding="utf-8") as f:
@@ -100,20 +99,6 @@ rs.slides(content=md_content,
 
 
 
-
-
-# with open("presentation.md", "r", encoding="utf-8") as f:
-#     md_content = f.read() \
-#         .replace("{img_html}", img_html) \
-#         .replace("{img_2}", img2_html) \
-#         .replace("{img_3}", img3_html) \
-#         .replace("{img_4}", img4_html) \
-#         .replace("{img_5}", img5_html) \
-#         .replace("{img_6}", img6_html) \
-#         .replace("{img_7}", img7_html) \
-#         .replace("{img_8}", img8_html)
-#
-#             rs.slides(content=md_content, theme="serif")
 
 
 
