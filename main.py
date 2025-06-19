@@ -1,7 +1,6 @@
 import base64
-from streamlit.components.v1 import html
+import streamlit as st
 import reveal_slides as rs
-
 # Чтение markdown слайдов
 with open("presentation.md", "r", encoding="utf-8") as f:
     slides_content = f.read()
